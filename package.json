@@ -1,0 +1,22 @@
+{
+  "name": "case-law-parse-ndjson",
+  "version": "1.0.0",
+  "description": "How to read datasets produced by case-law-2-ndjson",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thisismattmiller/case-law-parse-ndjson.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thisismattmiller/case-law-parse-ndjson/issues"
+  },
+  "homepage": "https://github.com/thisismattmiller/case-law-parse-ndjson#readme",
+  "dependencies": {
+    "highland": "^2.10.5"
+  }
+}
