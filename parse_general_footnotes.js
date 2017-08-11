@@ -18,6 +18,7 @@ H(fs.createReadStream(path))
 
 		if (caseData.caseBody.caseBodyHeader.footnote){
 			caseData.caseBody.caseBodyHeader.footnote.forEach((f)=>{
+				console.log(f)
 				if (!marks[f.mark]) marks[f.mark] = 0
 				marks[f.mark]++
 			})

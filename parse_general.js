@@ -5,8 +5,8 @@ var path = '/Users/thisismattmiller/Downloads/Illcases.ndjson'
 var count = 0
 
 H(fs.createReadStream(path))
-	.compact()
 	.split()
+	.compact()	
 	.map(JSON.parse)
 	.map((caseData)=>{
 		process.stdout.write(`Progress: ${++count}\r`)

@@ -17,6 +17,13 @@
   },
   "homepage": "https://github.com/thisismattmiller/case-law-parse-ndjson#readme",
   "dependencies": {
-    "highland": "^2.10.5"
+    "bluereq": "^2.1.4",
+    "highland": "^2.10.5",
+    "humanname": "^0.2.2",
+    "pureimage": "^0.1.2",
+    "talisman": "^0.19.1",
+    "wikidata-sdk": "^5.2.2",
+    "xmldom": "^0.1.27",
+    "xpath": "0.0.24"
   }
 }
